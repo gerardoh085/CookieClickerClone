@@ -1,0 +1,152 @@
+body{
+    /* background-color: aqua; */
+    background-color: rgba(138, 85, 55, 0.537) !important;
+    /* min-width: 800px !important; */
+}
+
+#cookie1{
+    width: 250px;
+    height: 250px;
+    border-radius: 250/2;
+    overflow: hidden;
+    border-width: 3px;
+    border-color: red;
+    -webkit-border-radius: 250/2;
+    -moz-border-radius: 250/2;
+    -ms-border-radius: 250/2;
+    -o-border-radius: 250/2;
+}
+
+/*  
+    creates the on and off button switch 
+    which can be used to toggle on or off 
+    the particle animation
+*/
+/* https://www.youtube.com/watch?v=SGO53lCDP88&ab_channel=CodingComics */
+
+.cookie-img{
+    /* display: block; */
+    /* cursor: pointer; */
+    /* width: 20px; */
+    /* border-radius: 40px; */
+    /* border: none; */
+    /* padding: 20px; */
+    /* font-size: 20px; */
+    /* color: white; */
+    /* background: linear-gradient(
+        90deg,
+        #9383C5,
+        #56E3FA
+    ); */
+
+}
+
+.box1{
+    box-sizing: border-box;
+    /* float: left; */
+    /* padding: 65px 280px; */
+}
+
+.Box2{
+    /* padding-top: 0px; */
+    /* box-sizing: border-box; */
+    /* width: 100%;
+    position:fixed;
+    left: 1440px;
+    bottom: 800px; */
+    /* float: right; */
+    /* position: relative; */
+    /* border:9px solid black; */
+    /* padding:15px 572px; */
+}
+
+.box3-specials{
+    box-sizing: border-box;
+    
+    float: right;
+    /* position: static !important; */
+    /* right: 400px; */
+    /* font-size: 40px; */
+    /* float: right !important; */
+    /* position: relative !important;
+    left: 300px; */
+    /* padding-bottom: 800px; */
+    /* padding-top: -60px; */
+}
+
+#DataStore table,td{
+    padding: 1px 30px;
+    /* position: fixed; */
+    position:relative;
+    
+    /* left: 200px; */
+    /* left: 200px; */
+}
+#table-specials {
+    padding: 1px 30px;
+    /* padding-top: 60px; */
+    /* position: fixed; */
+    position:relative;
+    bottom: 40px;
+    /* padding: 20px; */
+    
+}
+
+.btn-store{
+    background-color: rgb(84, 64, 64);
+    color: lightyellow;
+    width: 260px;
+    height: 100px;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    padding: 2px 30px;
+    position: relative;
+    left:200px;
+}
+
+.btn-store-special{
+
+    background-color: rgb(84, 64, 64);
+    color: lightyellow;
+    width: 260px;
+    height: 100px;
+    justify-content: center;
+    padding: 2px 10px;
+
+
+}
+
+.btn-in{
+    text-align: left;
+    justify-content: center;
+    text-align: center;
+}
+
+.HeaderDescr{
+    font-size: 25px;
+    position: relative;
+    left: 250px;
+    padding-top: 120px;
+    padding-bottom: 3px;
+    /* position: relative;
+    right: 110px; */
+}
+.HeaderDescr1{
+    font-size: 25px;
+    position: relative;
+    right: 75px;
+    padding-bottom: 3px;
+    /* padding-left: 20px; */
+}
+
+#demo{
+    display: none;
+}
+
+.disabledDiv[disabled]{
+    /* display: none; */
+    pointer-events: none !important;
+    opacity: 0.7 !important;
+}
